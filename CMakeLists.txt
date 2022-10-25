@@ -5,7 +5,7 @@ find_package(OpenMP)
 
 add_subdirectory(src)
 
-option(BUILD_DEMO "Build csfdemo executable" OFF)
+option(BUILD_DEMO "Build csfdemo executable" ON)
 set(BUILD_SHARED_LIBS "Build as shared library" OFF)
 
 if(BUILD_DEMO)
